@@ -5,70 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Mountain</title>
+    
+    <!-- Import DM Sans font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    
     <style>
         #title {
             font-size: 2em;
-            font-family: DM Sans;
-            font-weight: normal; /* Changed from light to normal */
+            font-family: 'DM Sans', sans-serif;
+            font-weight: normal;
             text-align: center;
             background-color: blue;
             color: white;
-            padding:20px;
+            padding: 20px;
         }
 
-        #info{
+        #info {
             font-size: 1.5em;
-            font-family: DM Sans;
-           margin:auto;
-            padding:5px;
+            font-family: 'DM Sans', sans-serif;
+            margin: auto;
+            padding: 5px;
         }
 
-        #contents{
-            font-size:3em;
-            margin:auto;
+        #contents {
+            font-size: 3em;
+            margin: auto;
         }
 
-        .click-me{
-            position:absolute;
-            top:400px;
-            left:15px;
-            width:170px;
-            height:120px
+        .click-me {
+            position: fixed;
+            top: 80%;
+            left: 15px;
+            width: 170px;
+            height: 120px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            line-height: 120px;
+            font-size: 1.2em;
+            text-decoration: none;
         }
 
-        .outer-wrapper{
-            overflow:auto;
+        .outer-wrapper {
+            overflow: auto;
         }
 
-        
     </style>
 </head>
 
-<div class = "outer-wrapper">
-
 <body>
-   <div id="title">
-       <h1>Canada's Blue Mountain</h1>
-   </div>
-    
-      <div id = "contents">
-       <h2>Table of contents</h2>
-       <p>
-        1. Official Info<br>
-        2. Blue Mountain Video
-    </p></div>
 
-<a target = "_blank" href = "https://www.youtube.com/watch?v=7xk7GmvAuo4" class = "click-me">Blue Mountain Video</a> 
-    
-    <p id = "info">Have you ever thought about going skiing? If you have, then Blue Mountain is the place to be!<br>
-    Located in Ontario, Canada, it’s a fun mix of outdoor adventure and small-town charm.<br>
-    In the winter, you can ski down the slopes, and when the weather’s warmer, there’s still plenty to do.<br>
-    From roller coasters to grabbing a scoop of ice cream, there’s always something exciting happening.<br>
-    Blue Mountain really has a little bit of everything, whether you’re looking to relax or have the time of your life!</p>
+    <div class="outer-wrapper">
+
+        <div id="title">
+            <h1>Canada's Blue Mountain</h1>
+        </div>
+
+        <div id="contents">
+            <h2>Table of contents</h2>
+            <p>
+                1. Official Info<br>
+                2. Blue Mountain Video
+            </p>
+        </div>
+
+        <a target="_blank" href="https://www.youtube.com/watch?v=7xk7GmvAuo4" class="click-me">Blue Mountain Video</a>
+
+        <p id="info">
+            Have you ever thought about going skiing? If you have, then Blue Mountain is the place to be!<br>
+            Located in Ontario, Canada, it’s a fun mix of outdoor adventure and small-town charm.<br>
+            In the winter, you can ski down the slopes, and when the weather’s warmer, there’s still plenty to do.<br>
+            From roller coasters to grabbing a scoop of ice cream, there’s always something exciting happening.<br>
+            Blue Mountain really has a little bit of everything, whether you’re looking to relax or have the time of your life!
+        </p>
+
+    </div>
 
 </body>
-</div>
 
 </html>
-
 
