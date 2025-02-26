@@ -20,34 +20,34 @@
             font-size: 1.5em;
             font-family: DM Sans;
             position:absolute;
-            top:210px;
+            top:400px;
             padding:5px;
         }
 
         #contents{
-            font-size:25px;
-            border: 2px solid black;
+            font-size:3em;
             position:absolute;
             top:210px;
             right:20px;
         }
 
         .click-me{
-            color:white;
-            background-color:black;
-            border: 2px ridge blue;
-            border-radius:10px;
             position:absolute;
             top:400px;
             left:15px;
             width:170px;
-            height:120px;
-            font: DM Sans;
+            height:120px
+        }
+
+        .outer-wrapper{
+            overflow:auto;
         }
 
         
     </style>
 </head>
+
+<div class = "outer-wrapper">
 
 <body>
    <div id="title">
@@ -61,9 +61,7 @@
         2. Blue Mountain Video
     </p></div>
 
-<a target = "_blank" href = "https://www.youtube.com/watch?v=7xk7GmvAuo4">
-    <button class = "click-me">Blue Mountain Video</button>
-</a> 
+<a target = "_blank" href = "https://www.youtube.com/watch?v=7xk7GmvAuo4" class = "click-me">Blue Mountain Video</a> 
     
     <p id = "info">Have you ever thought about going skiing? If you have, then Blue Mountain is the place to be!<br>
     Located in Ontario, Canada, it’s a fun mix of outdoor adventure and small-town charm.<br>
@@ -72,6 +70,7 @@
     Blue Mountain really has a little bit of everything, whether you’re looking to relax or have the time of your life!</p>
 
 </body>
+</div>
 
 </html>
 
