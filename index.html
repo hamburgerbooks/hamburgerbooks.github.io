@@ -2,51 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <!-- Import DM Sans font -->
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <!-- Import DM Sans font -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
-  <title>
-    Hamburger Books
-  </title>
+  <title>Hamburger Books</title>
+
   <style>
-
-    body{
-      background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/Best_Project_Management_Books.jpg);
-                  background-size: cover;
-            background-repeat: no-repeat;
-            background-position:top;
+    body {
+      background-color: black;
+      font-family: 'DM Sans', sans-serif;
+      margin: 0;
+      padding: 0;
     }
-     #title{
-      background:black;
-      color:white;
-      padding:10px;
-      font-family:DM Sans;
-     }
 
-     #test{
-      position:absolute;
-      top: 42px;
-      right:50px
-     }
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: black;
+      padding: 10px 0;
+    }
 
-     a, #test{
-      color:aliceblue;
-     }
+    #A, #B, #C {
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: color 0.2s, background-color 0.2s;
+    }
 
-     a, #test:hover{
-      color:rgb(147, 148, 153);
-     }
+    #A:hover,
+    #B:hover,
+    #C:hover {
+      color: rgb(60, 154, 154);
+      background-color: #e0e0e0;
+    }
 
+    #title1{
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 3em;
+      background-color: aliceblue;
+    }
 
+    #book1{
+      padding-top: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 <body>
-  <h1 id = "title">
-    Hamburger Books
-  </h1>
+  <div class="nav">
+    <a id="A" target="_blank" href="https://youtube.com">About</a>
+    <a id="B" target="_blank" href="https://youtube.com">Contact</a>
+    <a id="C" target="_blank" href="https://youtube.com">Home</a>
+  </div>
 
-  <a id = "test" target="_blank" href=https://youtube.com>Test Link</a>
+  <h1 id="title1"> Hamburger Books</h1>
+
+  <img id = "book1"src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Best_Project_Management_Books.jpg" width="500"
 </body>
 </html>
