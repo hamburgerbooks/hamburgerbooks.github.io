@@ -84,7 +84,8 @@
     }
 
     #ha{
-      color:white;
+      color:grey
+      background-color:black;
     }
   </style>
 </head>
@@ -107,6 +108,16 @@
     If you are here to purchase books, I apologize but I am not selling books.
   </p>
 
-  <button id="ha" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Secret Info and Passwords</button>
+  <button id="ha">Secret Info and Passwords</button>
+
+  <script>
+  document.getElementById("ha").onclick = function () {
+    this.textContent = "Haha! You got rickrolled!";
+    setTimeout(() => {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }, 1500);
+  };
+</script>
+  
 </body>
 </html>
