@@ -8,116 +8,73 @@
   <!-- Import DM Sans font -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 
-  <script>
-      document.getElementById("ha").onclick = function () {
-    this.textContent = "Haha! You got rickrolled!";
-  };
-  </script>
-
   <style>
     body {
-      background-color: black;
-      font-family: 'DM Sans', sans-serif;
+      background: rgb(42, 253, 141);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       margin: 0;
-      padding: 0;
+      font-family: 'DM Sans', sans-serif;
     }
 
-    .nav {
-      display: flex;
-      justify-content: space-around;
-      background-color: black;
-      padding: 10px 0;
-    }
-
-    #A, #B, #C {
-      background-color: white;
-      color: black;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
-      transition: color 0.2s, background-color 0.2s, font-size 0.5s;
-    }
-
-    #A:hover,
-    #B:hover,
-    #C:hover {
-      color: rgb(60, 154, 154);
-      background-color: #e0e0e0;
-      font-size: 1.2em;
-    }
-
-    #title1 {
-      color: rgb(0, 0, 0);
-      text-align: center;
-      font-size: 3em;
+    h1 {
       background-color: aliceblue;
-      transition: font-size 0.5s;
-    }
-
-    #book1 {
-      padding-top: 50px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      transition: width 0.2s, text-shadow 0.5s;
-    }
-
-    #book1:hover {
-      width: 32em;
-    }
-
-    p {
-      color: aliceblue;
+      padding:1%;
       font-size: 1.5em;
+      padding-left: 1%;
+    }
+
+    h2 {
+      padding-top: 20%;
+      padding-left: 3%;
+      font-size: 2em;
+    }
+
+    img {
+      width: 40%;
+      position: absolute;
+      left: 70%;
+      bottom: 25%;
+      transform: translateX(-50%);
+    }
+
+    #footer {
+      background-color: aliceblue;
+      padding: 0.5%;
+      position: absolute;
+      bottom: 0.5%;
+      width: 100%;
       text-align: center;
-      padding-top: 5%;
-      transition: font-size 0.5s;
+      font-size: 1em;
     }
 
-    p:hover {
-      font-size: 1.6em;
+    #thing{
+      position: absolute;
+      bottom:93%;
+      right: 5%;
+      color:black;
     }
 
-    #title1:hover {
-      text-shadow: 5px 5px 5px gray;
-      font-size: 3.1em;
+    #ding{
+      position:absolute;
+      bottom:93%;
+      right: 20%;
+      color:black;
     }
 
-    #ha{
-      color:grey
-      background-color:black;
-    }
   </style>
 </head>
 
 <body>
-  <div class="nav">
-    <a id="A" target="_blank" href="https://youtube.com">About</a>
-    <a id="B" target="_blank" href="https://youtube.com">Contact</a>
-    <a id="C" target="_blank" href="https://youtube.com">More</a>
+  <div id="goat">
+    <h1>Web Space</h1>
+    <h2>Your best option to make<br>a website</h2>
+    <img src="https://resourceboy.com/wp-content/uploads/2023/04/perspective-sight-of-laptop-website-mockup.jpg" alt="Laptop website mockup">
+    <p id="footer">© 2025 Web Space</p>
+    <a id="thing" href="youtube.com">Login</a>
+    <a id="ding" href="youtube.com">Sign Up</a>
   </div>
-
-  <h1 id="title1">Hamburger Books</h1>
-
-  <img id="book1" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Best_Project_Management_Books.jpg" width="500">
-
-  <p>
-    Hamburger Books is a sample business which sells books.<br>
-    It was established on May 20th, 2025, by Hamza Usman Sandhu as a test subject for a website.<br>
-    As of now, there are no books available for sale and I am working on the website.<br>
-    If you are here to purchase books, I apologize but I am not selling books.
-  </p>
-
-  <button id="ha">Secret Info and Passwords</button>
-
-  <script>
-  document.getElementById("ha").onclick = function () {
-    this.textContent = "Haha! You got rickrolled!";
-    setTimeout(() => {
-      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-    }, 1500);
-  };
-</script>
-  
 </body>
 </html>
+
